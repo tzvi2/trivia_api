@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API4Trivia Spec</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+    <div id="play">
+
+    </div>
+    <div>
+
+    </div>
+    <div class="content">
+    <h1>Welcome to my trivia game API</h1>
+    <p>There are only two parameters for each request: <strong>topic</strong>, and <strong>number of questions</strong>
+    For example, if you wanted 5 questions about animals, you'd make a get request to:</p>
+    <code>https://api4trivia.herokuapp.com/questions/animals/5</code>
+
+    <h2>Available Topics</h2>
+    <ul>
+        <li>Biology (<code>.../questions/biology</code>)</li>
+        <li>U.S. History (<code>.../questions/us_history</code>)</li>
+        <li>Sports (<code>.../questions/sports</code>)</li>
+        <li>Geography (<code>.../questions/geography</code>)</li>
+    </ul>
+
+    <p>If you wanted 10 questions about sports, the full URL to call is:</p>
+    <code>https://api4trivia.herokuapp.com/questions/sports/10</code>
+
+    <h2>Response format</h2>
+    <p>You'll always sent back an array of objects. Each object will have a <code>question</code> key, as well as an <code>answers</code> key.
+    For example: <code>fetch(https://api4trivia.herokuapp.com/questions/sports/2)</code> will get the response: 
+    <pre>
+    [
+        {
+          "question": "In what year was the NFL founded?",
+          "answers": [
+            {
+              "text": "1820",
+              "correct": false
+            },
+            {
+              "text": "1920",
+              "correct": true
+            },
+            {
+              "text": "1980",
+              "correct": false
+            },
+            {
+              "text": "1992",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "The Tampa Bay Rays were originally called...",
+          "answers": [
+            {
+              "text": "Sun Rays",
+              "correct": false
+            },
+            {
+              "text": "Pay Rays",
+              "correct": false
+            },
+            {
+              "text": "Devil Rays",
+              "correct": true
+            },
+            {
+              "text": "Hot Rays",
+              "correct": false
+            }
+          ]
+        }
+    ]
+    </pre>
+    Each question contains four answers total, three of which will be incorrect.</p>
+
+</div>
+</body>
+</html>

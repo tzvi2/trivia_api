@@ -1,0 +1,263 @@
+{
+    "sports": [
+        { 
+            "question": "Which MLB team has won the most world series championships?",
+            "answers": [
+                {
+                    "text": "Detroit Tigers",
+                    "correct": false
+                },
+                {
+                    "text": "Chicago Cubs",
+                    "correct": false
+                },
+                {
+                    "text": "New York Yankees",
+                    "correct": true
+                },
+                {
+                    "text": "Boston Red Sox",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "The Tampa Bay Rays were originally called...",
+            "answers": [
+                {
+                    "text": "Sun Rays",
+                    "correct": false
+                },
+                {
+                    "text": "Pay Rays",
+                    "correct": false
+                },
+                {
+                    "text": "Devil Rays",
+                    "correct": true
+                },
+                {
+                    "text": "Hot Rays",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "In what year was the NFL founded?",
+            "answers": [
+                {
+                    "text": "1820",
+                    "correct": false
+                },
+                {
+                    "text": "1920",
+                    "correct": true
+                },
+                {
+                    "text": "1980",
+                    "correct": false
+                },
+                {
+                    "text": "1992",
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "us_history": [
+        { 
+            "question": "Which of the following was not one of the original 13 colonies?",
+            "answers": [
+                {
+                    "text": "Virginia",
+                    "correct": false
+                },
+                {
+                    "text": "Pennsylvania",
+                    "correct": false
+                },
+                {
+                    "text": "Maryland",
+                    "correct": false
+                },
+                {
+                    "text": "Ohio",
+                    "correct": true
+                }
+            ]
+        },
+        { 
+            "question": "Who was the third president of the U.S.?",
+            "answers": [
+                {
+                    "text": "George Washington",
+                    "correct": false
+                },
+                {
+                    "text": "Abraham Lincoln",
+                    "correct": false
+                },
+                {
+                    "text": "Thomas Jefferson",
+                    "correct": true
+                },
+                {
+                    "text": "Woodrow Wilson",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "When was the Decleration of Indepence published?",
+            "answers": [
+                {
+                    "text": "July 1, 1770",
+                    "correct": false
+                },
+                {
+                    "text": "July 4, 1776",
+                    "correct": true
+                },
+                {
+                    "text": "April 4, 1796",
+                    "correct": false
+                },
+                {
+                    "text": "May 2, 1829",
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "geography": [
+        { 
+            "question": "Which two countries border the United States?",
+            "answers": [
+                {
+                    "text": "Canada and Greenland",
+                    "correct": false
+                },
+                {
+                    "text": "Peru and Chile",
+                    "correct": false
+                },
+                {
+                    "text": "Mexico and Canada",
+                    "correct": true
+                },
+                {
+                    "text": "Canada and Iceland",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "What is the most populous African country?",
+            "answers": [
+                {
+                    "text": "Madagascar",
+                    "correct": false
+                },
+                {
+                    "text": "Egypt",
+                    "correct": false
+                },
+                {
+                    "text": "Uganda",
+                    "correct": false
+                },
+                {
+                    "text": "Nigeria",
+                    "correct": true
+                }
+            ]
+        },
+        { 
+            "question": "What is the largest country (by size)",
+            "answers": [
+                {
+                    "text": "Canada",
+                    "correct": false
+                },
+                {
+                    "text": "Russia",
+                    "correct": true
+                },
+                {
+                    "text": "China",
+                    "correct": false
+                },
+                {
+                    "text": "France",
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "biology": [
+        { 
+            "question": "Paleontology is the study of...",
+            "answers": [
+                {
+                    "text": "Plants",
+                    "correct": false
+                },
+                {
+                    "text": "Joints",
+                    "correct": false
+                },
+                {
+                    "text": "Fossils",
+                    "correct": true
+                },
+                {
+                    "text": "Skin",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "DNA contains which chemical bases?",
+            "answers": [
+                {
+                    "text": "Oxygen and Hydrogen",
+                    "correct": false
+                },
+                {
+                    "text": "Guava and Thyme",
+                    "correct": false
+                },
+                {
+                    "text": "Adenine, Cytosine, Guanine, and Thymine",
+                    "correct": true
+                },
+                {
+                    "text": "Adrenaline and Cysts",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "Protein is composed of...",
+            "answers": [
+                {
+                    "text": "Glulcose",
+                    "correct": false
+                },
+                {
+                    "text": "Amino Acids",
+                    "correct": true
+                },
+                {
+                    "text": "Lactose",
+                    "correct": false
+                },
+                {
+                    "text": "Carbon Molecules",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+        
+}
