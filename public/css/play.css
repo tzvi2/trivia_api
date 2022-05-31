@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+}
+
+header a {
+    margin: 2%;
+}
+
+#gameArea {
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 2%;
+    box-shadow: 1px 1px 4px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+#startButton {
+    width: 100%;
+    cursor: pointer;
+}
+
+#homeButton {
+    border-radius: 5px;
+    border-width: 1px;
+    width: 20%;
+    cursor: pointer;
+}
+
+#homeButton:hover {
+    border: 1px solid blue;
+}
+
+#question {
+    margin: 0;
+    font-weight: 100;
+}
+
+#answers {
+    list-style: none;
+    padding: 0;
+}
+
+#answers li {
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -.5px 1px 0px;
+}
+
+#answers li.incorrect {
+    border: 2px solid red;
+    box-shadow: -.5px 1px 6px red;
+    background: red;
+}
+
+#answers li.incorrect:hover {
+    border: 2px solid red;
+}
+
+#answers li.correct {
+    border: 2px solid yellowgreen;
+    box-shadow: -.5px 1px 6px yellowgreen;
+    background: yellowgreen;
+}
+
+#answers li.correct:hover {
+    border: 2px solid yellowgreen;
+}
+
+#answers li:hover:not(.selected) {
+    border: 1px solid blue;
+    box-shadow: -.5px 1px 6px blue;
+}
+
+.hidden {
+    display: none;
+}

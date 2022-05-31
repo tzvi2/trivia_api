@@ -62,7 +62,49 @@
                     "correct": false
                 }
             ]
-        }
+        }, 
+        {
+            "question": "Which is the oldest major sports organization in the United States?",
+            "answers": [
+                {
+                    "text": "NBA",
+                    "correct": false
+                },
+                {
+                    "text": "NHL",
+                    "correct": false
+                },
+                {
+                    "text": "NFL",
+                    "correct": false
+                },
+                {
+                    "text": "MLB",
+                    "correct": true
+                }
+            ]
+        },
+        { 
+            "question": "Which soccer (football) club has the most fans in England?",
+            "answers": [
+                {
+                    "text": "Chelsea",
+                    "correct": false
+                },
+                {
+                    "text": "Manchester City",
+                    "correct": false
+                },
+                {
+                    "text": "Liverpool",
+                    "correct": false
+                },
+                {
+                    "text": "Manchester United",
+                    "correct": true
+                }
+            ]
+        } 
     ],
     "us_history": [
         { 
@@ -124,6 +166,48 @@
                 },
                 {
                     "text": "May 2, 1829",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "How many presidents has the U.S. had (as of 2022)?",
+            "answers": [
+                {
+                    "text": "24",
+                    "correct": false
+                },
+                {
+                    "text": "30",
+                    "correct": false
+                },
+                {
+                    "text": "54",
+                    "correct": false
+                },
+                {
+                    "text": "46",
+                    "correct": true
+                }
+            ]
+        }, 
+        { 
+            "question": "Which is a government branch responsible for making and changing laws?",
+            "answers": [
+                {
+                    "text": "Judicial",
+                    "correct": false
+                },
+                {
+                    "text": "Legislative",
+                    "correct": true
+                },
+                {
+                    "text": "Enviromental",
+                    "correct": false
+                },
+                {
+                    "text": "Executive",
                     "correct": false
                 }
             ]
@@ -192,6 +276,48 @@
                     "correct": false
                 }
             ]
+        },
+        { 
+            "question": "Which is the earth's highest mountain?",
+            "answers": [
+                {
+                    "text": "Makalu",
+                    "correct": false
+                },
+                {
+                    "text": "Mount Everest",
+                    "correct": true
+                },
+                {
+                    "text": "Capitol Hill",
+                    "correct": false
+                },
+                {
+                    "text": "Mount Fuji",
+                    "correct": false
+                }
+            ]
+        }, 
+        { 
+            "question": "Which coutnry has the largest rain forest coverage?",
+            "answers": [
+                {
+                    "text": "Columbia",
+                    "correct": false
+                },
+                {
+                    "text": "Brazil",
+                    "correct": true
+                },
+                {
+                    "text": "Indonesia",
+                    "correct": false
+                },
+                {
+                    "text": "Guinea",
+                    "correct": false
+                }
+            ]
         }
     ],
     "biology": [
@@ -257,7 +383,49 @@
                     "correct": false
                 }
             ]
+        },
+        { 
+            "question": "A chromosome is composed of...",
+            "answers": [
+                {
+                    "text": "Free Electrons",
+                    "correct": false
+                },
+                {
+                    "text": "Epinephrine and sodium",
+                    "correct": false
+                },
+                {
+                    "text": "DNA and proteins",
+                    "correct": true
+                },
+                {
+                    "text": "Chrome V8",
+                    "correct": false
+                }
+            ]
+        }, 
+        { 
+            "question": "What are the two main functions of the pancreas?",
+            "answers": [
+                {
+                    "text": "Regulate body temperature and heart rate",
+                    "correct": false
+                },
+                {
+                    "text": "Aid digestion and regulate blood sugar levels",
+                    "correct": true
+                },
+                {
+                    "text": "Supply oxygen to the body and protect the lungs",
+                    "correct": false
+                },
+                {
+                    "text": "Process blood calcium and strengthen the skeletal system",
+                    "correct": false
+                }
+            ]
         }
-    ]
-        
+    ] 
+
 }

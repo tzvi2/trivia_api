@@ -1,6 +1,7 @@
 const app = require('express')()
 const express = require('express')
 const path = require('path')
+const cors = require('cors')
 
 let port = process.env.PORT || 3000
 
@@ -8,18 +9,16 @@ const data = require('./questions.json')
 
 app.set('json spaces', 2)
 
-const options = {}
-
-
 app.use(express.static("public"))
+app.use(cors())
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/index.html'))
+    res.sendFile(path.join(__dirname + '/public/spec.html'))
 })
 
 app.get('/questions/:topic/:number', (req, res) => {
     let questions = []
-    
+
     if (req.params.number > data[req.params.topic].length) {
         res.send(`too many questions, please specify up to ${data[req.params.topic].length}`)
         return

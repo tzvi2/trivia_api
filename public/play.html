@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API4Trivia Spec</title>
+    <link rel="stylesheet" href="css/play.css" type="text/css">
+</head>
+<body>
+  <header>
+    <a href="play.html">Play</a>
+    <a href="spec.html">API Spec</a>
+  </header>
+  <div class="container">
+    <div id="gameArea">
+        <div id="startScreen" class="visible">
+            <div class="row">
+                <label for="categories">Select Your Category</label> 
+                <select name="categories" id="categoriesDropdown" onchange="updateTopic()">
+                    <option value="biology">Biology</option>
+                    <option value="us_history">U.S. History</option>
+                    <option value="sports">Sports</option>
+                    <option value="geography">Geography</option>
+                </select>
+            </div>
+            <div class="row">
+                <label for="numberOfQuestions">How many questions?</label>
+                <input id="numberOfQuestions" name="numberOfQuestions" value="1" type="number" min="1" max="5" onchange="updateNumber()"/>
+            </div>
+            <div class="row">
+                <input id="startButton" type="button" onclick="fetchQuestions()" value="Start"/>
+            </div>
+        </div>
+        <div class="row">
+            <button id="homeButton" class="hidden" onclick="home()">Home</button>
+        </div>
+        
+        <div class="hidden" id="questionScreen">
+            <div id="info" class="row">
+                <label id="questionNumber"></label>
+                <label id="scoreBoard"></label>
+            </div>
+            <div class="row">
+                <h4 id="question">Which is the only team to win four consectuive hillbillys in the late 1800s?</h4>
+            </div>
+            <ul id="answers">
+                
+            </ul>
+        </div>
+    </div>
+  </div>
+  <script src="javascript/play.js"></script>
+</body>
+</html>
