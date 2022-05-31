@@ -14,51 +14,54 @@
   </header>
     
     <div class="content">
-    <h1>Welcome to my trivia game API</h1>
-    <p>There are only two parameters for each request: <strong>topic</strong>, and <strong>number of questions</strong>
-    For example, if you wanted 5 questions about animals, you'd make a get request to:</p>
-    <code>https://api4trivia.herokuapp.com/questions/animals/5</code>
-
-    <h2>Available Topics</h2>
-    <ul>
-        <li>Biology (<code>.../questions/biology</code>)</li>
-        <li>U.S. History (<code>.../questions/us_history</code>)</li>
-        <li>Sports (<code>.../questions/sports</code>)</li>
-        <li>Geography (<code>.../questions/geography</code>)</li>
-    </ul>
-
-    <p>If you wanted 10 questions about sports, the full URL to call is:</p>
-    <code>https://api4trivia.herokuapp.com/questions/sports/10</code>
-
-    <h2>Response format</h2>
-    <p>You'll always sent back an array of objects. Each object will have a <code>question</code> key, as well as an <code>answers</code> key.
-    For example: <code>fetch(https://api4trivia.herokuapp.com/questions/sports/1)</code> will get the response: 
-    <pre>
-    [
-        {
-          "question": "In what year was the NFL founded?",
-          "answers": [
-            {
-              "text": "1820",
-              "correct": false
-            },
-            {
-              "text": "1920",
-              "correct": true
-            },
-            {
-              "text": "1980",
-              "correct": false
-            },
-            {
-              "text": "1992",
-              "correct": false
-            }
-          ]
-        }  
-    ]
-    </pre>
-    Each question contains four answers total, three of which will be incorrect.</p>
+    <h1>Welcome to my trivia API and game.</h1>
+    <div class="text">
+        <p>There are only two parameters for each request: <strong>topic</strong>, and <strong>number of questions</strong>
+            For example, if you wanted 5 questions about animals, you'd make a get request to:</p>
+            <code>https://api4trivia.herokuapp.com/questions/animals/5</code>
+        
+            <h2>Available Topics</h2>
+            <ul>
+                <li>Biology (<code>.../questions/biology</code>)</li>
+                <li>U.S. History (<code>.../questions/us_history</code>)</li>
+                <li>Sports (<code>.../questions/sports</code>)</li>
+                <li>Geography (<code>.../questions/geography</code>)</li>
+            </ul>
+        
+            <p>If you wanted 10 questions about sports, the full URL to call is:</p>
+            <code>https://api4trivia.herokuapp.com/questions/sports/10</code>
+        
+            <h2>Response format</h2>
+            <p>Your response will be an array of objects. Each object will have a <code>question</code> and <code>answers</code> key.
+            For example: <code>fetch(https://api4trivia.herokuapp.com/questions/sports/1)</code> will get the response: 
+            <pre>
+            [
+                {
+                  "question": "In what year was the NFL founded?",
+                  "answers": [
+                    {
+                      "text": "1820",
+                      "correct": false
+                    },
+                    {
+                      "text": "1920",
+                      "correct": true
+                    },
+                    {
+                      "text": "1980",
+                      "correct": false
+                    },
+                    {
+                      "text": "1992",
+                      "correct": false
+                    }
+                  ]
+                }  
+            ]
+            </pre>
+            Each question contains three incorrect answers and one correct answer.</p>
+    </div>
+    
 
 </div>
 </body>

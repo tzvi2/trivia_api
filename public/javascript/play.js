@@ -63,9 +63,7 @@ function chooseAnswer(listElem, correct) {
         listElem.className = "incorrect selected"
     }
     answersLocked = true
-    console.log('scoreboard', scoreBoard)
     scoreBoard.innerHTML = `Score ${totalCorrect}/${currentQuestionNumber}`
-    console.log(currentQuestionNumber, totalQuestions)
     setTimeout(() => {
         if (currentQuestionNumber === totalQuestions) {
             finishGame()
