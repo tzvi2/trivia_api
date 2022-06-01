@@ -54,8 +54,8 @@ function startGame() {
 
 
 function chooseAnswer(listElem, correct) {
-    currentQuestionNumber++
     if (answersLocked) return
+    currentQuestionNumber++
     if (correct) {
         listElem.className = "correct selected"
         totalCorrect++
