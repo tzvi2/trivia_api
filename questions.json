@@ -104,6 +104,48 @@
                     "correct": true
                 }
             ]
+        },
+        { 
+            "question": "Which team does Lebron James play for (2022)",
+            "answers": [
+                {
+                    "text": "Miami Heat",
+                    "correct": false
+                },
+                {
+                    "text": "Pittsburgh Eagles",
+                    "correct": false
+                },
+                {
+                    "text": "San Antonio Spurs",
+                    "correct": false
+                },
+                {
+                    "text": "Los Angeles Lakers",
+                    "correct": true
+                }
+            ]
+        },
+        { 
+            "question": "What is the worlds second most popular sport?",
+            "answers": [
+                {
+                    "text": "Baseball",
+                    "correct": false
+                },
+                {
+                    "text": "Table Tennis",
+                    "correct": false
+                },
+                {
+                    "text": "Croquet",
+                    "correct": false
+                },
+                {
+                    "text": "Cricket",
+                    "correct": true
+                }
+            ]
         } 
     ],
     "us_history": [
@@ -150,7 +192,7 @@
             ]
         },
         { 
-            "question": "When was the Decleration of Indepence published?",
+            "question": "When was the Declaration of Independence published?",
             "answers": [
                 {
                     "text": "July 1, 1770",
@@ -208,6 +250,48 @@
                 },
                 {
                     "text": "Executive",
+                    "correct": false
+                }
+            ]
+        }, 
+        { 
+            "question": "What were the two sides in the civil war?",
+            "answers": [
+                {
+                    "text": "Co-eds vs Workers United",
+                    "correct": false
+                },
+                {
+                    "text": "Union vs Confederacy",
+                    "correct": true
+                },
+                {
+                    "text": "Tories vs Whigs",
+                    "correct": false
+                },
+                {
+                    "text": "Federalist vs Democrats",
+                    "correct": false
+                }
+            ]
+        }, 
+        { 
+            "question": "Who killed John F. Kennedy?",
+            "answers": [
+                {
+                    "text": "John Wilkes Booth",
+                    "correct": false
+                },
+                {
+                    "text": "Jack Ruby",
+                    "correct": false
+                },
+                {
+                    "text": "Lee Harvey Oswald",
+                    "correct": true
+                },
+                {
+                    "text": "Lester Paul Jones",
                     "correct": false
                 }
             ]
@@ -278,7 +362,7 @@
             ]
         },
         { 
-            "question": "Which is the earth's highest mountain?",
+            "question": "What is earth's highest mountain?",
             "answers": [
                 {
                     "text": "Makalu",
@@ -299,7 +383,7 @@
             ]
         }, 
         { 
-            "question": "Which coutnry has the largest rain forest coverage?",
+            "question": "Which country has the largest rain forest coverage?",
             "answers": [
                 {
                     "text": "Columbia",
@@ -315,6 +399,48 @@
                 },
                 {
                     "text": "Guinea",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "What is the widest river?",
+            "answers": [
+                {
+                    "text": "The Great Egyptian Stream",
+                    "correct": false
+                },
+                {
+                    "text": "The Mississippi River",
+                    "correct": false
+                },
+                {
+                    "text": "The Amazon",
+                    "correct": true
+                },
+                {
+                    "text": "Congo River",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "Which is the second most spoken language in the world?",
+            "answers": [
+                {
+                    "text": "Spanish",
+                    "correct": false
+                },
+                {
+                    "text": "Mandarin",
+                    "correct": true
+                },
+                {
+                    "text": "English",
+                    "correct": false
+                },
+                {
+                    "text": "French",
                     "correct": false
                 }
             ]
@@ -367,7 +493,7 @@
             "question": "Protein is composed of...",
             "answers": [
                 {
-                    "text": "Glulcose",
+                    "text": "Glucose",
                     "correct": false
                 },
                 {
@@ -385,10 +511,10 @@
             ]
         },
         { 
-            "question": "A chromosome is composed of...",
+            "question": "A chromosome is comprised of...",
             "answers": [
                 {
-                    "text": "Free Electrons",
+                    "text": "Free electrons",
                     "correct": false
                 },
                 {
@@ -400,7 +526,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Chrome V8",
+                    "text": "Endorphines",
                     "correct": false
                 }
             ]
@@ -422,6 +548,48 @@
                 },
                 {
                     "text": "Process blood calcium and strengthen the skeletal system",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "What is the darkest part of the human eye's exterior?",
+            "answers": [
+                {
+                    "text": "Iris",
+                    "correct": false
+                },
+                {
+                    "text": "Pupil",
+                    "correct": true
+                },
+                {
+                    "text": "Sclera",
+                    "correct": false
+                },
+                {
+                    "text": "Optica Majora",
+                    "correct": false
+                }
+            ]
+        },
+        { 
+            "question": "Which of the following is not a type of joint?",
+            "answers": [
+                {
+                    "text": "Pivot joint",
+                    "correct": false
+                },
+                {
+                    "text": "Rolling joint",
+                    "correct": true
+                },
+                {
+                    "text": "Ball and socket joint",
+                    "correct": false
+                },
+                {
+                    "text": "Gliding joint",
                     "correct": false
                 }
             ]
